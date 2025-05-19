@@ -18,12 +18,12 @@
         <div class="row text-sm-center text-md-start">
 
             <div class="col-12 col-md-3 col-lg-3 mx-auto mt-3">
-                <h5 class="text-uppercase mt-4 text-warning">eShop</h5>
-                <p>Here we are the eShop.lk&trade; to support you for accomplish your dessire by selling high quality products.</p>
+                <h5 class="text-uppercase mt-4 text-warning">PrimeBuilder</h5>
+                <p>Here we are the PrimeBuilder.lk&trade; to support you for accomplish your dessire by selling high quality products.</p>
             </div>
 
             <div class="col-12 col-md-3 col-lg-3 mx-auto mt-3">
-                <p>Copyright &copy; 2022 eShop All Rights Reserved</p>
+                <p>Copyright &copy; 2025 Prime-Builder All Rights Reserved</p>
             </div>
 
             <div class="col-12 col-md-3 col-lg-3 mx-auto mt-3">
@@ -71,13 +71,13 @@
                 <h5 class="text-uppercase text-warning mb-4">Contact Us</h5>
 
                 <p><i class="bi bi-house-fill"></i> Maradana, Colombo 10, Sri Lanka</p>
-                <p><i class="bi bi-at"></i> eshop@gmail.com</p>
+                <p><i class="bi bi-at"></i> primebuilder@gmail.com</p>
                 <p><i class="bi bi-telephone-fill"></i> +94 112 4445558</p>
-                <p><i class="bi bi-printer-fill"></i> +94 112 4445558</p>
+                <!-- <p><i class="bi bi-printer-fill"></i> +94 112 4445558</p> -->
 
             </div>
 
-            <hr class="mb-4" />
+            <hr class="mb-4" />'     '
 
         </div>
     </div>

@@ -82,8 +82,8 @@
             <!-- footer -->
 
             <div class="col-12 fixed-bottom text-center">
-                <p>&copy; 2022 eShop.lk || All Rights Reserved</p>
-                <p class="fw-bold">Java Institute &trade;</p>
+                <p>&copy; 2025  || All Rights Reserved</p>
+                <p class="fw-bold"> &trade;</p>
             </div>
 
             <!-- footer -->
