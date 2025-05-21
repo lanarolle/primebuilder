@@ -48,6 +48,7 @@ require "connection.php";
 
                         <!-- sign up -->
 
+                        <div></div>
                         <div class="col-12 col-lg-6" id="signUpBox">
                             <div class="row g-2">
 
