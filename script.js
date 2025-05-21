@@ -1,3 +1,33 @@
+ // Payment completed. It can be a successful failure.
+    payhere.onCompleted = function onCompleted(orderId) {
+      
+      alert("payment placed. Thank you");
+      
+      window.location = "index.html";
+    };
+
+    // Payment window closed
+    payhere.onDismissed = function onDismissed() {
+       alert("payment dismissed");
+    };
+
+    // Error occurred
+    payhere.onError = function onError(error) {
+        // Note: show an error page
+        console.log("Error:"  + error);
+    };
+
+
+
+
+
+
+
+
+
+
+
+
 function changeView() {
 
     var signUpBox = document.getElementById("signUpBox");
@@ -818,9 +848,9 @@ function payNow(id) {
                 // Put the payment variables here
                 var payment = {
                     "sandbox": true,
-                    "merchant_id": "1221647", // Replace your Merchant ID
-                    "return_url": "http://localhost/eshop1/singleProductView.php?id" + id, // Important
-                    "cancel_url": "http://localhost/eshop1/singleProductView.php?id" + id, // Important
+                    "merchant_id": "1230521", // Replace your Merchant ID
+                    "return_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
+                    "cancel_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
                     "notify_url": "http://sample.com/notify",
                     "order_id": obj["id"],
                     "items": obj["item"],

@@ -64,7 +64,7 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="userProfile.php">My Profile</a></li>
-                            <li><a class="dropdown-item" href="#">My Sellings</a></li>
+                            <li><a class="dropdown-item" href="">My Sellings</a></li>
                             <li><a class="dropdown-item" href="myProducts.php">My Products</a></li>
                             <li><a class="dropdown-item" href="watchlist.php">Watchlist</a></li>
                             <li><a class="dropdown-item" href="purchasingHistory.php">Purchase History</a></li>
