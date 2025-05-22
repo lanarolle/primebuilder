@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Admin Sign In | eShop</title>
+    <title>Admin Sign In | Prime-Build</title>
 
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
@@ -25,7 +25,7 @@
 
                     <div class="col-12 logo"></div>
                     <div class="col-12">
-                        <p class="text-center title1">Hi, Welcome to eShop Admins.</p>
+                        <p class="text-center title1">Hi, Welcome to Prime-Build Admins.</p>
                     </div>
 
                 </div>

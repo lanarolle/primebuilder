@@ -18,7 +18,7 @@ if (isset($_SESSION["u"])) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>My Products | eShop</title>
+        <title>My Products | Prime Build</title>
 
         <link rel="stylesheet" href="bootstrap.css" />
         <link rel="stylesheet" href="style.css" />

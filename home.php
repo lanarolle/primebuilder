@@ -12,13 +12,13 @@ require "connection.php";
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home | eShop</title>
+    <title>Home | Prime-Build</title>
 
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    <link rel="icon" href="resource/logo.svg" />
+    <link rel="icon" href="resource/1.png" />
 </head>
 
 <body>
@@ -101,7 +101,7 @@ require "connection.php";
                                     <div class="carousel-item active">
                                         <img src="resource/slider images/posterimg.jpg" class="d-block poster-img-1" />
                                         <div class="carousel-caption d-none d-md-block poster-caption">
-                                            <h5 class="poster-title">Welcome to eShop</h5>
+                                            <h5 class="poster-title">Welcome to Prime-Build</h5>
                                             <p class="poster-txt">The World's Best Online Store By One Click.</p>
                                         </div>
                                     </div>

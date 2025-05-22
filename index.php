@@ -12,12 +12,12 @@ require "connection.php";
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>eShop</title>
+    <title>Prime Build</title>
 
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="icon" href="resource/logo.svg" />
+    <link rel="icon" href="resource/1.png" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
@@ -35,7 +35,7 @@ require "connection.php";
                     <div class="row">
                         <div class="col-12 logo"></div>
                         <div class="col-12">
-                            <P class="text-center title1">Hi, Welcome to eShop</P>
+                            <P class="text-center title1">Hi, Welcome to Prime Build</P>
                         </div>
                     </div>
                 </div>
@@ -48,6 +48,7 @@ require "connection.php";
 
                         <!-- sign up -->
 
+                        <div></div>
                         <div class="col-12 col-lg-6" id="signUpBox">
                             <div class="row g-2">
 
@@ -159,7 +160,7 @@ require "connection.php";
                                     <button class="btn btn-primary" onclick="signIn();">Sign In</button>
                                 </div>
                                 <div class="col-12 col-lg-4 d-grid">
-                                    <button class="btn btn-danger" onclick="changeView()">New to eShop? Join Now</button>
+                                    <button class="btn btn-danger" onclick="changeView()">New to Prime Build? Join Now</button>
                                 </div>
                                 <div class="col-12 col-lg-4 d-grid">
                                     <a href="adminSignin.php" class="btn btn-dark">Admin Sign In</a>
@@ -223,7 +224,7 @@ require "connection.php";
                 <!-- footer -->
 
                 <div class="col-12 fixed-bottom d-none d-lg-block">
-                    <p class="text-center">&copy; 2022 eShop.lk || All Right Reserved</p>
+                    <p class="text-center">&copy; 2025 Prime_Build.lk || All Right Reserved</p>
                 </div>
 
                 <!-- footer -->
