@@ -798,39 +798,122 @@ function send_msg() {
 
 }
 
+// function payNow(id) {
+
+//     var qty = document.getElementById("qty_input").value;
+
+//     var r = new XMLHttpRequest();
+
+//     r.onreadystatechange = function() {
+//         if (r.readyState == 4) {
+//             var t = r.responseText;
+
+//             var obj = JSON.parse(t);
+
+//             var mail = obj["mail"];
+//             var amount = obj["amount"];
+
+//             if (t == "1") {
+
+//                 alert("Please log in or sign up");
+//                 window.location = "index.php";
+
+//             } else if (t == "2") {
+
+//                 alert("Please update your profile first");
+//                 window.location = "userProfile.php";
+
+//             } else {
+
+//                 // Payment completed. It can be a successful failure.
+//                 payhere.onCompleted = function onCompleted(orderId) {
+
+//                     saveInvoice(orderId, id, mail, amount, qty);
+//                     console.log("Payment completed. OrderID:" + orderId);
+//                     // Note: validate the payment and show success or failure page to the customer
+//                 };
+
+//                 // Payment window closed
+//                 payhere.onDismissed = function onDismissed() {
+//                     // Note: Prompt user to pay again or show an error page
+//                     console.log("Payment dismissed");
+//                 };
+
+//                 // Error occurred
+//                 payhere.onError = function onError(error) {
+//                     // Note: show an error page
+//                     console.log("Error:" + error);
+//                 };
+
+//                 // Put the payment variables here
+//                 var payment = {
+//                     "sandbox": true,
+//                     "merchant_id": "1230521", // Replace your Merchant ID
+//                     "return_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
+//                     "cancel_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
+//                     "notify_url": "http://sample.com/notify",
+//                     "order_id": obj["id"],
+//                     "items": obj["item"],
+//                     "amount": amount,
+//                     "currency": "LKR",
+//                     "first_name": obj["fname"],
+//                     "last_name": obj["lname"],
+//                     "email": mail,
+//                     "phone": obj["mobile"],
+//                     "address": obj["address"],
+//                     "city": obj["city"],
+//                     "country": "Sri Lanka",
+//                     "delivery_address": obj["address"],
+//                     "delivery_city": obj["city"],
+//                     "delivery_country": "Sri Lanka",
+//                     "custom_1": "",
+//                     "custom_2": ""
+//                 };
+
+//                 // Show the payhere.js popup, when "PayHere Pay" is clicked
+//                 // document.getElementById('payhere-payment').onclick = function(e) {
+//                 payhere.startPayment(payment);
+
+//                 // };
+//             }
+
+//         }
+//     };
+
+//     r.open("GET", "buyNowProcess.php?id=" + id + "&qty=" + qty, true);
+//     r.send();
+
+// }
 function payNow(id) {
 
     var qty = document.getElementById("qty_input").value;
 
-    var r = new XMLHttpRequest();
+    var request = new XMLHttpRequest();
 
-    r.onreadystatechange = function() {
-        if (r.readyState == 4) {
-            var t = r.responseText;
+    request.onreadystatechange = function () {
+        if (request.status == 200 & request.readyState == 4) {
+            var response = request.responseText;
 
-            var obj = JSON.parse(t);
+            var obj = JSON.parse(response);
 
-            var mail = obj["mail"];
+            var mail = obj["umail"];
             var amount = obj["amount"];
 
-            if (t == "1") {
-
-                alert("Please log in or sign up");
+            if (response == 1) {
+                alert("Please Login.");
                 window.location = "index.php";
-
-            } else if (t == "2") {
-
-                alert("Please update your profile first");
+            } else if (response == 2) {
+                alert("Please update your profile.");
                 window.location = "userProfile.php";
-
             } else {
 
                 // Payment completed. It can be a successful failure.
                 payhere.onCompleted = function onCompleted(orderId) {
-
-                    saveInvoice(orderId, id, mail, amount, qty);
                     console.log("Payment completed. OrderID:" + orderId);
-                    // Note: validate the payment and show success or failure page to the customer
+
+                    alert("Payment completed. OrderID:" + orderId);
+                    saveInvoice(orderId, id, mail, amount, qty);
+
                 };
 
                 // Payment window closed
@@ -848,14 +931,15 @@ function payNow(id) {
                 // Put the payment variables here
                 var payment = {
                     "sandbox": true,
-                    "merchant_id": "1230521", // Replace your Merchant ID
-                    "return_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
-                    "cancel_url": "http://localhost/eshop1/singleProductView.php?id" + 1, // Important
+                    "merchant_id": obj["mid"],    // Replace your Merchant ID
+                    "return_url": "http://localhost/eshop/singleProductView.php?id=" + id,     // Important
+                    "cancel_url": "http://localhost/eshop/singleProductView.php?id=" + id,     // Important
                     "notify_url": "http://sample.com/notify",
                     "order_id": obj["id"],
                     "items": obj["item"],
-                    "amount": amount,
+                    "amount": amount + ".00",
                     "currency": "LKR",
+                    "hash": obj["hash"], // *Replace with generated hash retrieved from backend
                     "first_name": obj["fname"],
                     "last_name": obj["lname"],
                     "email": mail,
@@ -871,18 +955,17 @@ function payNow(id) {
                 };
 
                 // Show the payhere.js popup, when "PayHere Pay" is clicked
-                // document.getElementById('payhere-payment').onclick = function(e) {
+                // document.getElementById('payhere-payment').onclick = function (e) {
                 payhere.startPayment(payment);
-
                 // };
+
             }
 
         }
-    };
+    }
 
-    r.open("GET", "buyNowProcess.php?id=" + id + "&qty=" + qty, true);
-    r.send();
-
+    request.open("GET", "buyNowProcess.php?id=" + id + "&qty=" + qty, true);
+    request.send();
 }
 
 function saveInvoice(orderId, id, mail, amount, qty) {
