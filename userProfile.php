@@ -15,7 +15,7 @@ require "connection.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Meta Tag End -->
 
-    <title>User Profile | eShop</title>
+    <title>User Profile | Prime-Build</title>
 
     <link rel="stylesheet" href="bootstrap.css" /><!-- Bootstrap CSS File Link -->
     <link rel="stylesheet" href="style.css" /><!-- CSS File Link -->
