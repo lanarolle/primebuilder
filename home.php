@@ -90,6 +90,7 @@ require "connection.php";
 
                     <div class="col-12 d-none d-lg-block mb-3" style="margin-bottom: 50px;">
                         <div class="row">
+                            <div></div>
 
                             <div id="carouselExampleIndicators" class="offset-2 col-8 carousel slide carousel-fade" data-bs-ride="true">
                                 <div class="carousel-indicators">
