@@ -60,7 +60,7 @@
 
                     <div class="col-12 col-lg-6 dropdown">
                         <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Prime-Build
+                            Prime Builder
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="userProfile.php">My Profile</a></li>

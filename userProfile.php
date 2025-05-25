@@ -15,7 +15,7 @@ require "connection.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Meta Tag End -->
 
-    <title>User Profile | Prime-Build</title>
+    <title>User Profile | Prime Builder</title>
 
     <link rel="stylesheet" href="bootstrap.css" /><!-- Bootstrap CSS File Link -->
     <link rel="stylesheet" href="style.css" /><!-- CSS File Link -->
@@ -23,7 +23,7 @@ require "connection.php";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"><!-- Bootstrap Icon Link -->
 
-    <link rel="icon" href="resource/logo.svg">
+    <link rel="icon" href="resource/4.png">
 
 </head>
 
