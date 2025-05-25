@@ -18,7 +18,7 @@ require "connection.php";
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    <link rel="icon" href="resource/1.png" />
+    <link rel="icon" href="resource/4.png" />
 </head>
 
 <body>
@@ -100,22 +100,23 @@ require "connection.php";
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="resource/slider images/posterimg.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/5.jpg" class="d-block poster-img-1" width="1600px" />
                                         <div class="carousel-caption d-none d-md-block poster-caption">
                                             <h5 class="poster-title">Welcome to Prime-Build</h5>
                                             <p class="poster-txt">The World's Best Online Store By One Click.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="resource/slider images/posterimg2.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/WhatsApp Image 2025-05-21 at 23.59.48_0a30c71a.jpg" class="d-block poster-img-1" width="1600px"/>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="resource/slider images/posterimg3.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/WhatsApp Image 2025-05-22 at 00.29.14_d9983d00.jpg" class="d-block poster-img-1"  width="1600px"/>
                                         <div class="carousel-caption d-none d-md-block poster-caption-1">
-                                            <h5 class="poster-title">Be Free...</h5>
-                                            <p class="poster-txt">Experience the Lowest Delivery Costs With Us.</p>
+                                            <!-- <h5 class="poster-title">Be Free...</h5> -->
+                                            <!-- <p class="poster-txt">Experience the Lowest Delivery Costs With Us.</p> -->
                                         </div>
                                     </div>
+                                    
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -18,13 +18,13 @@ if (isset($_SESSION["u"])) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>My Products | Prime Build</title>
+        <title>My Products | Prime Builder</title>
 
         <link rel="stylesheet" href="bootstrap.css" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-        <link rel="icon" href="resource/logo.svg" />
+        <link rel="icon" href="resource/4.png" />
     </head>
 
     <body style="background-color: #E9EBEE;">
