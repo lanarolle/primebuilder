@@ -176,6 +176,9 @@ require "connection.php";
 
                 <!-- content -->
 
+                
+                 
+
                 <!-- modal -->
 
                 <div class="modal" tabindex="-1" id="forgotPasswordModal">

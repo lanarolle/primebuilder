@@ -337,11 +337,11 @@ require "connection.php";
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 text-center">
+                                <!-- <div class="col-md-4 text-center">
                                     <div class="row">
                                         <span class="mt-5 fw-bold text-black-50">Display Ads</span>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
