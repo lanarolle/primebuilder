@@ -17,11 +17,11 @@ require "connection.php";
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="icon" href="resource/4.png "/>
+    <link rel="icon" href="resource/4.png " />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    
+
 
 </head>
 
@@ -46,12 +46,13 @@ require "connection.php";
                 <!-- content -->
                 <div class="col-12 p-3">
                     <div class="row">
-                        <div class="col-6 d-none d-lg-block background"></div>
+                        <div class="col-6 d-none d-lg-block background">
+                            <P></P>
+                        </div>
 
                         <!-- sign up -->
-                         
-                          <!-- <img src="resource/background.svg" width="300px" height="300px"/> -->
-                        <div></div>
+
+                        
                         <div class="col-12 col-lg-6" id="signUpBox">
                             <div class="row g-2">
 
@@ -152,7 +153,7 @@ require "connection.php";
                                 </div>
                                 <div class="col-6">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="1" id="rememberme"/>
+                                        <input class="form-check-input" type="checkbox" value="1" id="rememberme" />
                                         <label class="form-check-label">Remember Me</label>
                                     </div>
                                 </div>
@@ -179,8 +180,8 @@ require "connection.php";
 
                 <!-- content -->
 
-                
-                 
+
+
 
                 <!-- modal -->
 

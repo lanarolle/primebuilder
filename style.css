@@ -39,8 +39,9 @@
 .background {
     background-image: url("resource/background.svg");
     background-size: contain;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
+    min-height: 20vh;
 }
 
 .title2 {
