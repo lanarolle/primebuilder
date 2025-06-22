@@ -8,6 +8,8 @@ if (isset($_SESSION["au"])) {
 
 ?>
 
+<!-- xx -->
+
     <!DOCTYPE html>
 
     <html>
