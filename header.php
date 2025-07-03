@@ -14,6 +14,8 @@
 
 <body>
 
+
+
     <div class="col-12">
         <div class="row mt-1 mb-1">
 
@@ -55,8 +57,13 @@
                 <div class="row">
 
                     <div class="col-1 col-lg-3 mt-2">
-                        <span class="text-start fw-bold">Sell</span>
+                      
+                        <span class="text-start fw-bold" onclick="window.location.href='home.php';" >Home</span>
                     </div>
+                  
+
+
+
 
                     <div class="col-12 col-lg-6 dropdown">
                         <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -101,6 +108,8 @@
                     </div>
 
                     <div class="col-1 col-lg-3 ms-5 ms-lg-0 mt-1 cart-icon" onclick="window.location='cart.php';"></div>
+
+                    <!-- <button onclick="window.location.href='home.php'">Home</button> -->
 
                     <!-- msg modal -->
                     <div class="modal" tabindex="-1" id="contactAdmin">
@@ -199,6 +208,9 @@
 
         </div>
     </div>
+    <!-- <div style="padding: 10px; background: #f5f5f5;">
+        <button onclick="window.location.href='home.php'">Home</button>
+    </div> -->
 
 
     <script src="script.js"></script>
